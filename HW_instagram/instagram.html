@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <style>
+        *{
+            background-color : whitesmoke;
+        }
+       #footer ul{
+            overflow : hidden;
+
+
+    }
+
+        #footer ul li{
+
+            list-style : none;
+            float : left;
+            font-size : 0.7em;
+            color : mediumblue;
+            margin : 0 5px;
+            height : 20px;
+            line-height : 20px;
+    }
+       #footer ul li:last-child{
+            float : right;
+            color : black;
+            opacity : 0.5;
+        }
+        #content{
+            width : 1000px;
+            margin : 0 auto;
+            overflow : hidden;
+
+        }
+        #left img{
+            width : 80%;
+        }
+        #left{
+            float : left;
+            margin : 80px 0 80px 80px;
+        }
+        #right{
+            overflow : hidden;
+            padding : 30px 30px;
+        }
+        #right #top, #right #middle{
+
+            border : 1px solid lightslategrey;
+            margin : 10px 0 0 0;
+            width : 300px;
+            text-align : center;
+
+        }
+
+        @font-face { font-family: 'billabong'; src: url('C:/Users/jiyun/Downloads.TTF'); }
+        h1{
+            font-family : billabong;
+            text-align : center;
+            font-size : 3.5em;
+        }
+        .one, .two , a , form{
+            text-align : center;
+        }
+
+        .one, .two{
+            color : #818078;
+        }
+        input[type=text], input[type=password]{
+            width : 90%;
+            padding : 1px 2px;
+            margin : 2px; 0
+
+        }
+        .a, .b, .c{
+            font-weight : bold;
+            background-color : white;
+        }
+
+
+
+        .or{
+            line-height: 1em;
+            position: relative;
+            outline: 0;
+            border: 0;
+            color: black;
+            text-align: center;
+            height: 1.5em;
+            opacity: .5;}
+         .or:before {
+              content: '';
+
+              background: linear-gradient(to right, transparent, #818078, transparent);
+              position: absolute;
+              left: 0;
+              top: 50%;
+              width: 100%;
+              height: 1px;
+            }
+     .or:after {
+          content: attr(data-content);
+          position: relative;
+          display: inline-block;
+          color: black;
+
+          padding: 0 .5em;
+          line-height: 1.5em;
+
+          color: #818078;
+          background-color: #fcfcfa;
+        }
+
+        a{
+            text-decoration : none;
+            background-color : dodgerblue;
+            color : white;
+
+
+        }
+
+        .face{
+
+            border : 1px solid #000000;
+            padding : 0 70px;
+            border-radius: 5px;
+        }
+
+        .sign{
+             border : 1px solid #000000;
+            padding: 0 115px;
+            border-radius: 5px;
+        }
+        .log{
+            background-color : whitesmoke;
+            color : dodgerblue;
+        }
+
+        #right ul {
+           list-style : none;
+       }
+
+        #bottom{
+            overflow : hidden;
+
+        }
+
+        #bottom li{
+            float : left;
+            margin : 10px;
+        }
+        .get{
+            width : 300px;
+            text-align : center;
+
+        }
+        .up1, .up2{
+            font-size : 50%;
+            color : white;
+        }
+        .down1, .down2{
+            font-weight : bold;
+            color : white;
+        }
+        .app, .google, .app .up1, .app .down1, .google .up2, .google .down2{
+            border : 1px solid #000000;
+            background-color : black;
+        }
+
+     #top, h1, .one,   .two, #middle, #middle p, #middle a, form{
+         background-color : white;
+     }
+        #bottom ul{
+            width : 300px;
+            text-align : center;
+        }
+        .app, .google{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+
+
+
+<div id="content">
+    <div id="left">
+        <img src="그림1.png" alt = "폰 사진">
+    </div>
+
+
+
+    <div id="right">
+
+
+        <div id="top">
+        <h1>Instagram</h1>
+            <p class = "one">
+            Sign up to see photos and videos <br/>
+        from your friends.
+            </p>
+        <p><a class = "face" href ="https://m.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%25221guomi11rda050o9ftg86c5qeu12zzuxlo4ly86cgbsln1sq6x82%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D2ff739a8-89fc-4b33-9ec3-49b9ed477974&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%25221guomi11rda050o9ftg86c5qeu12zzuxlo4ly86cgbsln1sq6x82%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252F%2522%257D%23_%3D_&display=touch&locale=ko_KR&refsrc=http%3A%2F%2Fwww.instagram.com%2F&_rdr">Log in with Facebook</a></p>
+        <hr class="or" data-content = "OR">
+        <form action ="#" method ="get">
+
+            <input type ="text" name = "unum" placeholder ="Mobile Number or Email"/><br/>
+            <input type ="text" name = "uname" placeholder ="Full Name"/><br/>
+            <input type ="text" name = "uuname" placeholder ="Username"/><br/>
+            <input type ="password" name = "upw" placeholder = "Password"/><br/>
+        </form>
+
+        <p><a href = "" class = "sign">Sign up</a></p>
+
+        <p class = "two">By signing up, you agree to our<br/>
+            <span class ="a">Terms, Data Policy</span> and <span class = "b">Cookies</span><br/>
+            <span class ="c">Policy</span></p>
+        </div>
+
+
+
+
+        <div id="middle">
+            <p>Have an account? <a class = "log" href="https://www.instagram.com/accounts/login/?source=auth_switcher">Log in</a></p>
+        </div>
+
+        <div id="bottom">
+        <p class = "get">Get the app.</p>
+        <ul>
+            <li class = "app">
+                <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo"><p class = "up1">Download on the</p>
+                    <p class = "down1">App Store</p></a>
+            </li>
+            <li class = "google">
+                <a href="https://play.google.com/store/apps?utm_source=apac_med&utm_medium=hasem&utm_content=Jul0119&utm_campaign=Evergreen&pcampaignid=MKT-DR-apac-kr-1003227-med-hasem-ap-Evergreen-Jul0119-Text_Search_SKWS-SKWS%7cONSEM_kwid_43700020722235233_creativeid_210764786303_device_c_kwd_kwd-294868084220_geoid_1009877_network_g&gclid=Cj0KCQjwpPHoBRC3ARIsALfx-_I9MbJ7vjtzMLne12McEYlk3LfJcW5ls5Y4AtaMvWztPlyT8GAo_SQaAnCKEALw_wcB&gclsrc=aw.ds"><p class = "up2">GET IT ON</p>
+                    <p class = "down2">Google Play</p></a>
+            </li>
+        </ul>
+        </div>
+
+
+
+    </div>
+</div>
+
+<div id="footer">
+
+    <ul>
+        <li>ABOUT US</li>
+        <li>SUPPORT</li>
+        <li>PRESS</li>
+        <li>API</li>
+        <li>JOBS</li>
+        <li>PRIVACY</li>
+        <li>TERMS</li>
+        <li>DIRECTORY</li>
+        <li>PROFILES</li>
+        <li>HASTAGS</li>
+        <li>LANGUAGE</li>
+        <li>2019 INSTAGRAM</li>
+    </ul>
+</div>
+
+
+</body>
+</html>
